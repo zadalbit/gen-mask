@@ -4,6 +4,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet"> 
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">
 		html {
 			padding: 0px;
@@ -27,23 +28,21 @@
 			padding: 0px;
 			margin: 0px;
 			margin-bottom: 0px;
+			margin-top: 8px;
 			margin-left: 15px;
 			font-weight: 300;
+			font-size: 24px;
 		}
 
 		h1 img {
 			margin: 0px 10px;
+			width: 20px;
 		}
 
 		h1 hr {
 			width: 240px;
 			float: left;
 			margin-top: 0px;
-		}
-
-		.footer-shadow {
-			height: 174px;
-			width: 100%;
 		}
 
 		.header {
@@ -62,7 +61,7 @@
 			padding: 50px 0px;
 			bottom: 0px;
 			width: 100%;
-			margin-top: -174px;
+			margin-top: -150px;
 		}
 
 		ul {
@@ -79,7 +78,6 @@
 
 		li a {
 		  display: block;
-		  padding: 8px 14px;
 		  padding-bottom: 18px;
 		  /*
 		  font-family: 'Baloo 2', cursive;
@@ -88,7 +86,6 @@
 		  */
 		  font-family: 'Ubuntu', sans-serif;
 		  font-weight: 400;
-		  font-size: 20px;
 		  text-decoration: none;
 		  color: #000;
 		  z-index: 1;
@@ -118,18 +115,61 @@
 			padding-top: 20px;
 		}
 
+		.heder-logo-img {
+			max-width: 250px; 
+		}
+
+		.footer-logo-img {
+			max-width: 250px; 
+		}
+
+		li a {
+			font-size: 16px;
+			padding: 14px 8px;
+		}
+
+		.footer-shadow {
+			height: 150px;
+			width: 100%;
+		}
+
 		@media all and (min-width: 900px) {
 	  		.heder-logo-img {
-				max-height: 180px; 
+				max-width: 350px; 
 			}
-		}
 
-		.heder-logo-img {
-			max-width: 350px; 
-		}
+			.footer-logo-img {
+				max-width: 350px; 
+			}
 
-		.footer-logo {
-			display: block;
+			li a {
+				font-size: 20px;
+				padding: 16px 14px;
+			}
+
+			h1 {
+				font-family: 'Ubuntu', sans-serif;
+				padding: 0px;
+				margin: 0px;
+				margin-bottom: 0px;
+				margin-left: 15px;
+				font-weight: 300;
+				font-size: 30px;
+				margin-top: 0px;
+			}
+
+			h1 img {
+				margin: 0px 10px;
+				width: 28px;
+			}
+
+			.footer-shadow {
+				height: 174px;
+			}
+
+			.footer {
+				margin-top: -174px;
+			}
 		}
 
 		.menu-gb {
@@ -224,13 +264,13 @@
 </div>
 <div class="content">
 	<h1><img src="h1img2.png">News</h1>
-	<hr>
+<hr>
 </div>
 <div class="footer-shadow">
 </div>
 </div>
 <div class="footer">
-	<div class="footer-logo"><img class="heder-logo-img" src="l02.png" height="70"></div>
+	<div class="footer-logo"><img class="footer-logo-img" src="l02.png"></div>
 </div>
 </body>
 </html>
